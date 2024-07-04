@@ -1,0 +1,23 @@
+.footer {
+  position: fixed;
+  bottom: 0;
+  font-size: 1.5em;
+  font-weight: bold;
+  text-align: center;
+  width: 100%;
+  background-color: #f7ca18;
+}
+
+.stat {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.tds {
+  margin-left: 100px;
+}
+
+.comps {
+  margin-right: 100px;
+}

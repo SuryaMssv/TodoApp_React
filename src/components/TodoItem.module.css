@@ -1,0 +1,50 @@
+.item {
+  width: 500px;
+  color: #353935;
+  font-size: 20px;
+  margin: 0 auto;
+}
+.itemname {
+  font-weight: bolder;
+  padding: 20px;
+}
+.line {
+  border: 2px solid rgb(222, 209, 209);
+}
+
+.delete {
+  float: right;
+  padding: 12px 20px;
+  border: none;
+  background-color: #f7ca18;
+  color: black;
+  font-size: large;
+  font-weight: bold;
+  border-radius: 11px;
+  margin-top: -5px;
+  margin-left: 5px;
+}
+
+.delete:hover {
+  background-color: gold;
+  cursor: pointer;
+}
+
+.done {
+  float: right;
+  padding: 10px 13px;
+  border: none;
+  background-color: #f7ca18;
+  font-size: large;
+  font-weight: bold;
+  border-radius: 11px;
+  margin-top: -5px;
+}
+
+.done:hover {
+  background-color: gold;
+}
+
+.completed {
+  text-decoration: line-through;
+}
